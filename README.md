@@ -4,6 +4,7 @@
 
 ## 都有哪些功能？
 
+* `http-server.py`: 本地测试用HTTP服务器
 * `openipc-brute.py`: 登录凭据爆破，但指定主机列表参数使用时输出会混乱
 * `openipc-cmd.py`: 远程命令执行，不建议执行`top`这类命令
 * `openipc-download.py`: 文件下载，直接下载二进制文件会有问题
