@@ -15,10 +15,3 @@
 
 在使用中有任何问题，欢迎使用`issues`与我反馈
 
-## 还有一件事
-
-有关文件下载还可以使用其他方法，比如:
-
-```
-curl -s -H "Authorization: Basic YWRtaW46MTIzNDU=" http://192.168.123.9/cgi-bin/texteditor.cgi?f=/etc/passwd | htmlq -t .small
-```
