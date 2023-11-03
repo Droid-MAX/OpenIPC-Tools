@@ -5,7 +5,7 @@ Some scripts developed specifically for [OpenIPC](https://openipc.org/).
 ## What do they do?
 
 * `http-server.py`: HTTP server for local testing.
-* `openipc-brute.py`: Login credentials cracking. The output will be messed up if you specify a host list parameter.
+* `openipc-brute.py`: Login credentials cracking. The output will be messed up when both host list and password dictionary parameters are specified.
 * `openipc-cmd.py`: Remote command execution. Not recommended for commands like `top`.
 * `openipc-download.py`: File download. Direct download of binary files can be problematic.
 * `openipc-get.py`: Get contents of a text file.
